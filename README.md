@@ -8,7 +8,7 @@
 
 如果有的话在 Github 中 `settings / Developer settings` 选择一个 OAuth App，如果没有 [点击这里申请](https://github.com/settings/applications/new)，我是第一次使用，自然需要从申请开始。
 
-![注册需要填写的表单](https://github.com/zhwangart/gitalk/raw/master/source/Register-OAuth-application.png)
+![注册需要填写的表单](./source/Register-OAuth-application.png)
 
 说明一下：
 
@@ -19,7 +19,7 @@
 
 然后申请成功后，就看到有了 Client ID 与 Client Secret 的一个页面，页面下边就是申请刚填写的的信息，均可以再次编辑！ 只有 Client ID 与 Client Secret 是在配置 Hexo 的时候需要用。
 
-![申请成功](https://github.com/zhwangart/gitalk/raw/master/source/OAuth-application.png)
+![申请成功](./source/OAuth-application.png)
 
 看见好多网友做截图时候把 Client ID 与 Client Secret 打码，我有一种木有必要的感觉...
 
@@ -90,7 +90,7 @@ gitalk:
 
 > 未找到相关的 Issues 进行评论 请联系 @xxxxxx 初始化创建。
 
-[未找到相关的 Issues 进行评论](./source/Not-found-issues.png)
+![未找到相关的 Issues 进行评论](./source/Not-found-issues.png)
 
 这个问题分为两种情况：
 
@@ -101,7 +101,7 @@ gitalk:
 
 > Error: Validation Failed.
 
-[Error: Validation Failed.](./source/Error-Validation-Failed.png)
+![Error: Validation Failed.](./source/Error-Validation-Failed.png)
 
 在 Gitalk 的 [Issues](https://github.com/gitalk/gitalk/issues/102) 找到原因：文章的 URL 过长，生成 issue 时超过了 Label 的长度限制，这的注释也写的很明确：`id: location.pathname,      // Ensure uniqueness and length less than 50` 。有两种解决方案：
 
@@ -122,6 +122,6 @@ id: md5(location.pathname),
 
 > Error: Not Found.
 
-[Error: Not Found.](./source/Error-Not-Found.png)
+![Error: Not Found.](./source/Error-Not-Found.png)
 
 很简单就是 repo 写错了！**这里只需要写仓库名称，不要链接！**
