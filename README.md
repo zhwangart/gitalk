@@ -90,7 +90,7 @@ gitalk:
 
 > 未找到相关的 Issues 进行评论 请联系 @xxxxxx 初始化创建。
 
-[](./source/Not-found-issues.png)
+[未找到相关的 Issues 进行评论](./source/Not-found-issues.png)
 
 这个问题分为两种情况：
 
@@ -101,7 +101,7 @@ gitalk:
 
 > Error: Validation Failed.
 
-[](./source/Error-Validation-Failed.png)
+[Error: Validation Failed.](./source/Error-Validation-Failed.png)
 
 在 Gitalk 的 [Issues](https://github.com/gitalk/gitalk/issues/102) 找到原因：文章的 URL 过长，生成 issue 时超过了 Label 的长度限制，这的注释也写的很明确：`id: location.pathname,      // Ensure uniqueness and length less than 50` 。有两种解决方案：
 
@@ -122,6 +122,6 @@ id: md5(location.pathname),
 
 > Error: Not Found.
 
-[](./source/Error-Not-Found.png)
+[Error: Not Found.](./source/Error-Not-Found.png)
 
 很简单就是 repo 写错了！**这里只需要写仓库名称，不要链接！**
