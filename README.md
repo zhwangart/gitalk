@@ -4,7 +4,7 @@
 
 我遇到的问题有：
 
-> 1.未找到相关的 Issues 进行评论 请联系 @ 初始化创建。
-> 2.Error: Validation Failed.
-> 3.Error: Not Found.
+1. 未找到相关的 Issues 进行评论 请联系 @ 初始化创建。
+2. Error: Validation Failed.
+3. Error: Not Found.
 
