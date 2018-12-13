@@ -3,7 +3,8 @@
 这里 [https://zhwangart.github.io/2018/12/06/Gitalk/](https://zhwangart.github.io/2018/12/06/Gitalk/) 我分享一下了我的添加过程与报错问题的解决方法，供参考借鉴！
 
 我遇到的问题有：
-1.未找到相关的 Issues 进行评论 请联系 @ 初始化创建。
-2.Error: Validation Failed.
-3.Error: Not Found.
+
+> 1.未找到相关的 Issues 进行评论 请联系 @ 初始化创建。
+> 2.Error: Validation Failed.
+> 3.Error: Not Found.
 
